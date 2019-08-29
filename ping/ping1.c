@@ -12,20 +12,11 @@
 #include<fcntl.h> 
 #include<signal.h> 
 #include<time.h> 
- 
 
 
 
 int pingloop=1; 
 
-#define PING_PKT_S 64 
-
- 
-#define PORT_NO 0 
-
-#define PING_SLEEP_RATE 1000000  
- 
-#define RECV_TIMEOUT 4 
 
 // ping packet structure 
 struct ping_pkt 
